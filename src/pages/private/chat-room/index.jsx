@@ -71,7 +71,7 @@ function ChatRoomPage() {
         text: newMessage,
         id: nanoid(8),
         status: "pending",
-        timestamp: new Date(new Date().getTime() + 86400000).toISOString(),
+        timestamp: new Date().toISOString(),
       };
 
       dispatch(messageAdded({ topic: room?.topic, message }));
