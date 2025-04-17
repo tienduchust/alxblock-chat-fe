@@ -43,3 +43,35 @@ npm run dev
 4. **Access the application**
 
 Open your browser and navigate to `http://localhost:5173`
+
+## 📂 Project Structure
+
+```bash
+src/
+├── assets/            # Static assets (images, fonts)
+├── components/        # Reusable UI components
+│   ├── svgs/          # Svg icons
+├── pages/             # Page-level components
+│   ├── public/        # Public pages
+│   └── private/       # Authenticated routes
+│       └── chat-room/ # Main chat interface
+├── store/             # Redux store configuration
+│   ├── slices/        # Redux slices
+│   └── actions/       # Redux actions
+│   └── middlewares/   # Redux middlewares
+│   └── selectors/     # Redux selectors
+│   └── index.js       # Redux store configuration
+├── hooks/             # Custom React hooks
+├── utils/             # Utility functions
+│   ├── helpers/       # Helper functions
+│   └── constants.js   # Application constants
+├── App.jsx            # Main application component
+└── main.jsx           # Application entry point
+
+public/
+├── vite.svg           # Vite default asset
+
+configs/
+├── vite.config.js     # Vite configuration
+└── tailwind.config.js # Tailwind CSS config
+```
