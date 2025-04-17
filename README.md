@@ -1,12 +1,45 @@
-# React + Vite
+# Chat Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React Version](https://img.shields.io/badge/react-19.0.0-%2361DAFB?logo=react)](https://react.dev/)
+[![Vite Version](https://img.shields.io/badge/vite-6.2.0-%646CFF?logo=vite)](https://vitejs.dev/)
+[![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.16.0-brightgreen?logo=node.js)](https://nodejs.org/)
 
-Currently, two official plugins are available:
+Real-time chat application using React 19 and MQTT protocol
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Technologies
 
-## Expanding the ESLint configuration
+- **Framework**: [React](https://react.dev/) v19.0.0
+- **Build Tool**: [Vite](https://vitejs.dev/) v6.2.0
+- **State Management**: [Redux Toolkit](https://redux-toolkit.js.org/) v2.6.1
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) v4.1.4
+- **Runtime**: [Node.js](https://nodejs.org/) v18.16.0+
+- **Package Manager**: npm 9.5.0+ / yarn 1.22.19+ / pnpm 7.0.0+
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Prerequisites
+
+- Node.js >= 18.16.0
+- npm (comes with Node.js) or yarn/pnpm
+
+## 🚀 Getting Started
+
+1. **Clone repository**
+
+```bash
+git clone https://github.com/alxblock-io/adlxblock-chat-fe.git
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Run the development server**
+
+```bash
+npm run dev
+```
+
+4. **Access the application**
+
+Open your browser and navigate to `http://localhost:5173`
