@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import storage from "redux-persist/lib/storage"; // mặc định dùng localStorage
 import { persistReducer } from "redux-persist";
 import { MQTT_CONNECT, MQTT_DISCONNECT } from "../actions/mqttAction";
-import { MQTT_CLIENT_ID, MQTT_HOST } from "@/utils/contants";
+import { MQTT_CLIENT_ID, MQTT_HOST } from "@/utils/constants";
 
 const initialState = {
   isConnected: false,

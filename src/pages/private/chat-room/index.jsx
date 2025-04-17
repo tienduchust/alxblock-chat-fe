@@ -16,7 +16,7 @@ import SentSvg from "@/components/svg/sentSvg";
 import PendingSvg from "@/components/svg/pendingSvg";
 import { messageAdded, simulateReconnection } from "@/store/slices/mqttSlice";
 import DotsVerticalSvg from "@/components/svg/dotsVerticalSvg";
-import { MQTT_HOST, MQTT_CLIENT_ID } from "@/utils/contants";
+import { MQTT_HOST, MQTT_CLIENT_ID } from "@/utils/constants";
 
 function ChatRoomPage() {
   const dispatch = useDispatch();
